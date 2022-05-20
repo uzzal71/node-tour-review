@@ -4,7 +4,7 @@
   "description": "A tour review app maily feed added user and other user review the fedd\"",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon ./index.js --exec babel-node -e js"
   },
   "repository": {
     "type": "git",
